@@ -1,6 +1,7 @@
 <!DOCTYLE HTML>
 <html>
     <head>
+        
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
         <title>QRCode Scanner</title>
@@ -45,7 +46,8 @@
                 var backBtn = document.getElementsByClassName("backBtnContainer")[0];
 
                 backBtn.onclick = function() {
-                    window.location.href = "https://www.hjjangela.com/EventDat/admin/organizerSelection.php?Id=" + Id + "&&Username=" + Username + "&&Password=" + Password;
+                    //window.location.href = "https://www.hjjangela.com/EventDat/admin/organizerSelection.php?Id=" + Id + "&&Username=" + Username + "&&Password=" + Password;
+					 window.location.href = "https://localhost/seg_oh/admin/organizerSelection.php?Id=" + Id + "&&Username=" + Username + "&&Password=" + Password;
                 }
             });
         </script>
